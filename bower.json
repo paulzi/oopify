@@ -1,0 +1,21 @@
+{
+  "name": "oopify",
+  "description": "Class implementation with protected, multiple inheritance, getters/setters and mixins",
+  "main": "dist/oopify.js",
+  "authors": [
+    "PaulZi <pavel.zimakoff@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "class",
+    "inheritance"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

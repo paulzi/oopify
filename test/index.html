@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Class tests</title>
+    <link rel="stylesheet" media="all" href="../node_modules/mocha/mocha.css">
+</head>
+<body>
+<div id="mocha"><p><a href=".">Index</a></p></div>
+<div id="messages"></div>
+<div id="fixtures"></div>
+<!--<script src="../node_modules/weakmap/weakmap.js"></script>-->
+<script src="../node_modules/mocha/mocha.js"></script>
+<script src="../node_modules/chai/chai.js"></script>
+<!--<script src="../dist/oopify.js"></script>-->
+<script src="../dist/oopify.all.js"></script>
+<script>mocha.setup('bdd')</script>
+<script src="main/Class.accessors.js"></script>
+<script src="main/Class.inheritance.js"></script>
+<script src="main/Class.instanceof.js"></script>
+<script src="main/Class.is.js"></script>
+<script src="main/Class.mixins.js"></script>
+<script src="main/Class.super.js"></script>
+<script>mocha.run();</script>
+</body>
+</html>

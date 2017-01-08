@@ -1,0 +1,29 @@
+{
+  "name": "oopify",
+  "version": "0.1.0",
+  "description": "Class implementation with protected, multiple inheritance, getters/setters and mixins",
+  "main": "dist/oopify.js",
+  "scripts": {
+    "build:dev": "./node_modules/.bin/webpack --config=webpack-dev.config.js",
+    "build:dist": "./node_modules/.bin/webpack --config=webpack-dist.config.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": ["class", "inheritance"],
+  "authors": [
+    {
+      "name": "PaulZi",
+      "email": "pavel.zimakoff@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulzi/oopify.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "weakmap": "0.0.6",
+    "webpack": "^2.2.0-rc.1"
+  }
+}
